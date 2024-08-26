@@ -41,7 +41,9 @@
         { name: "Holesky", config: { ...MainNetConfig, genesisTime: 1695902400 } },
         { name: "Goerli", config: { ...MainNetConfig, genesisTime: 1616508000 } },
         { name: "Sepolia", config: { ...MainNetConfig, genesisTime: 1655733600 } },
-        { name: "Gnosis", config: { genesisTime: 1638993340, secondsPerSlot: 5, slotsPerEpoch: 16 } }
+        { name: "Gnosis", config: { genesisTime: 1638993340, secondsPerSlot: 5, slotsPerEpoch: 16 } },
+        { name: "LUKSO Testnet", config: { genesisTime: 1683130800, secondsPerSlot: 12, slotsPerEpoch: 32 } },
+        { name: "LUKSO Mainnet", config: { genesisTime: 1684858800, secondsPerSlot: 12, slotsPerEpoch: 32 } }
       ],
       config: MainNetConfig,
       tabs: null,
